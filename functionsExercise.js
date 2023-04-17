@@ -20,6 +20,8 @@ function muppetShow(a,b){
     }
 }
 
+
+
 // 4. Create another declaration function called kermit that RETURNS the following string value "Kermit The Frog" when it is run/executed
 
 function kermit() {
