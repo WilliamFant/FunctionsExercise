@@ -66,9 +66,8 @@ const newMuppetMovies = [
 // 10b. Using the Map method on the newMuppetMovies array, create an anonymous declaration function to pass as an argument for the Map method that changes the letters of each array item to uppercase. Also, set the returned value to a new const variable called upperMovies.
 
 const upperMovies = newMuppetMovies.map(function(movie){
-    return movie.toUpperCase
-    ();
-})
+    return movie.toUpperCase();
+});
 
 
 // BONUS…
@@ -85,9 +84,7 @@ const oldMuppetMovies = [
 
 // 11b. Using the Filter array method on the oldMuppetMovies array, create an anonymous arrow function to pass as an argument for the Filter method that will return/create a new array with only the "The Great Muppet Caper" and "Muppet Treasure Island" items in it. Also, set the value of the new array that is returned/created to a const variable called twoMovies. (HINT: The length property)
 
-const twoMovies = oldMuppetMovies.filter(movie =>{
-    return movie === "The Great Muppet Caper" || movie === "Muppet Treasure Island";
-});
+const twoMovies = oldMuppetMovies.filter(movie => movie === "The Great Muppet Caper" || movie === "Muppet Treasure Island" );
 
 
 // 12a. Create a const variable called charactersOne and set the value to an array with the following values: "Statler" & "Waldorf"
