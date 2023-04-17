@@ -90,9 +90,6 @@ const twoMovies = oldMuppetMovies.filter(movie =>{
 });
 
 
-
-
-
 // 12a. Create a const variable called charactersOne and set the value to an array with the following values: "Statler" & "Waldorf"
 
 const charactersOne = [
